@@ -4,10 +4,14 @@
   
   wasm function that parses utf-8 string and outputs js object containing kanjis. Kanjis that were together are in the same string. 
   Nothing smart is going on, so different words that didn't have anything separating them will still be in the same string.
+  
+  
   `import * as wasm from "kanji-collector";`
-  ```wasm.search_kanji(
+  `wasm.search_kanji(
         "testこの建物は現代的に見える。君が知ってる人の中で誰が一番賢い？"
-    )```
+   )`
+   
+   
   ###git push --set-upstream origin master
 
 ### 🐑 Use `cargo generate` to Clone this Template
